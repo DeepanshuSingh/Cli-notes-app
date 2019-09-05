@@ -1,4 +1,4 @@
-const chalk = require('chalk')
+const chalk = require('../play/node_modules/chalk')
 const yargs = require('yargs')
 const notes = require("./notes")
 

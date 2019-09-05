@@ -1,5 +1,5 @@
-const fs = require('fs')
-const chalk = require('chalk')
+const fs = require('../play/node_modules/fs')
+const chalk = require('../play/node_modules/chalk/types')
 
 const addNote = (title,body) =>{
     const notes = loadNotes()
